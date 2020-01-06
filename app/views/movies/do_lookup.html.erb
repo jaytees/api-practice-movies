@@ -1,0 +1,37 @@
+<h1>Search Results for "<%= @query %><%= @genre_query %>"</h1>
+
+ <!-- if @genre_results == ""  -->
+<!-- if @query.present? -->
+
+<% unless @query.blank? %>
+<ul class="results">
+  <% @results.each do | movie | %>
+      <li>
+        <a href="/movies/results/<%= movie['id'] %>">
+          <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+        </a>
+      </li>
+
+  <% end %>
+</ul>
+<% end %>
+
+<!-- else -->
+
+<% unless @genre_query.blank? %>
+<ul class="results">
+  <% @genre_results.each do | genre | %>
+      <li>
+        <a href="/movies/results/<%= genre['id'] %>">
+          <img src="http://image.tmdb.org/t/p/w185<%= genre['poster_path'] %>" alt="">
+        </a>
+      </li>
+  <% end %>
+</ul>
+<% end  %>
+
+
+<!-- results.each do | result |
+  anchor = result['id']
+  img = result['poster_path']
+end -->

@@ -1,0 +1,35 @@
+<h1><%= @result['title'] %></h1>
+<h3><%= @result['tagline'] %></h3>
+
+
+<img src="http://image.tmdb.org/t/p/w185<%= @result['poster_path'] %>" alt="">
+<br>
+<ul>
+  <a href="<%= @result['homepage'] %>" target="_blank"><li>Official Website</li></a>
+  <br>
+  <li>
+  Genre(s):
+  <% @result['genres'].each do | genre | %>
+
+        <%= genre['name'] %>,
+
+  <% end %>
+  </li>
+  <br>
+  <li>Overview: <%= @result['overview'] %></li>
+  <br>
+  <li>Rating: <%= @result['vote_average'] %></li>
+</ul>
+<br>
+
+<h4>Related Titles:</h4>
+
+<ul class="results">
+  <% @related_titles[0..10].each do | movie | %>
+      <li>
+        <a href="/movies/results/<%= movie['id'] %>">
+          <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+        </a>
+      </li>
+  <% end %>
+</ul>

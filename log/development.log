@@ -1,0 +1,2089 @@
+Started GET "/" for ::1 at 2020-01-06 15:25:44 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jordantrickett/.rvm/gems/ruby-2.4.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jordantrickett/.rvm/gems/ruby-2.4.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-06 15:30:13 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jordantrickett/.rvm/gems/ruby-2.4.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jordantrickett/.rvm/gems/ruby-2.4.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form" for ::1 at 2020-01-06 15:30:18 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/form"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stocks" for ::1 at 2020-01-06 15:30:32 +1100
+Processing by StocksController#form as HTML
+  Rendering stocks/form.html.erb within layouts/application
+  Rendered stocks/form.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 180ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2020-01-06 15:33:57 +1100
+Processing by StocksController#form as HTML
+  Rendering stocks/form.html.erb within layouts/application
+  Rendered stocks/form.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/lookup?stock_symbol=" for ::1 at 2020-01-06 15:34:00 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/stocks/lookup"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stocks/lookup?stock_symbol=GOOG" for ::1 at 2020-01-06 15:34:10 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/stocks/lookup"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stocks/lookup?stock_symbol=GOOG" for ::1 at 2020-01-06 15:41:40 +1100
+Processing by StocksController#do_lookup as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/do_lookup.html.erb within layouts/application
+  Rendered stocks/do_lookup.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 331121ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/lookup?stock_symbol=GOOG" for ::1 at 2020-01-06 15:47:24 +1100
+Processing by StocksController#do_lookup as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/do_lookup.html.erb within layouts/application
+  Rendered stocks/do_lookup.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 921ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 16:02:10 +1100
+  
+ActionController::RoutingError (uninitialized constant MoviesController):
+  
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.4.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.4.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.8) lib/rack/session/abstract/id.rb:259:in `context'
+rack (2.0.8) lib/rack/session/abstract/id.rb:253:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movies" for ::1 at 2020-01-06 16:02:22 +1100
+  
+ActionController::RoutingError (uninitialized constant MoviesController):
+  
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.4.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.4.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.4.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.8) lib/rack/session/abstract/id.rb:259:in `context'
+rack (2.0.8) lib/rack/session/abstract/id.rb:253:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movies" for ::1 at 2020-01-06 16:03:49 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 185ms (Views: 183.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:08:40 +1100
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/controllers/movies_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+e1df55b9a328755&query=' params[:movie_name]
+                              ^):
+  
+app/controllers/movies_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:08:57 +1100
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/controllers/movies_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+e1df55b9a328755&query=' params[:movie_name]
+                              ^):
+  
+app/controllers/movies_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:10:10 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:18:24 +1100
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 508348ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Search Results</h1>
+    2: 
+    3: 
+    4: <% @first_result.each do | movie | %>
+    5: 
+    6:     <p>Movie Title: <%= movie['original_title'] %></p>
+    7: 
+  
+app/views/movies/do_lookup.html.erb:4:in `_app_views_movies_do_lookup_html_erb___4344961813745646598_70364907050900'
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/controllers/movies_controller.rb:16: syntax error, unexpected '[', expecting '('
+    @first_result = response.['result'].first
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/controllers/movies_controller.rb:16: syntax error, unexpected ']', expecting keyword_end
+t_result = response.['result'].first
+                              ^):
+  
+app/controllers/movies_controller.rb:16: syntax error, unexpected '[', expecting '('
+app/controllers/movies_controller.rb:16: syntax error, unexpected ']', expecting keyword_end
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:18:55 +1100
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/controllers/movies_controller.rb:16: syntax error, unexpected '[', expecting '('
+    @first_result = response.['result'].first
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/controllers/movies_controller.rb:16: syntax error, unexpected ']', expecting keyword_end
+t_result = response.['result'].first
+                              ^):
+  
+app/controllers/movies_controller.rb:16: syntax error, unexpected '[', expecting '('
+app/controllers/movies_controller.rb:16: syntax error, unexpected ']', expecting keyword_end
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:19:56 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Completed 500 Internal Server Error in 278ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:16:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:20:31 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:16:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:20:48 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:16:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:20:52 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:16:in `do_lookup'
+Started GET "/movies" for ::1 at 2020-01-06 16:21:34 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:21:37 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:16:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:22:04 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+Completed 500 Internal Server Error in 250153ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:21:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:26:56 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3: 
+    4: <% @first_result.each do | movie | %>
+    5: 
+    6:     <p>Movie Title: <%= movie['original_title'] %></p>
+    7: 
+    8: <% end %>
+  
+app/views/movies/do_lookup.html.erb:6:in `[]'
+app/views/movies/do_lookup.html.erb:6:in `block in _app_views_movies_do_lookup_html_erb__1308571882701281360_70232880259840'
+app/views/movies/do_lookup.html.erb:4:in `each'
+app/views/movies/do_lookup.html.erb:4:in `_app_views_movies_do_lookup_html_erb__1308571882701281360_70232880259840'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:28:20 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 134ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:28:31 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:29:23 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     5: 
+     6: <% @first_result.each do | movie | %>
+     7: 
+     8:     <p>Movie Title: <%= movie['original_title'] %></p>
+     9: 
+    10: <% end %>
+  
+app/views/movies/do_lookup.html.erb:8:in `[]'
+app/views/movies/do_lookup.html.erb:8:in `block in _app_views_movies_do_lookup_html_erb__1308571882701281360_70232881775320'
+app/views/movies/do_lookup.html.erb:6:in `each'
+app/views/movies/do_lookup.html.erb:6:in `_app_views_movies_do_lookup_html_erb__1308571882701281360_70232881775320'
+Started GET "/movies" for ::1 at 2020-01-06 16:29:36 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=" for ::1 at 2020-01-06 16:29:37 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>""}
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/controllers/movies_controller.rb:20:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:29:42 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:13: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/movies/do_lookup.html.erb:13: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:30:00 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:43:19 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 354ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:47:11 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 265ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:50:33 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 295ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:50:54 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 77ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:51:26 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:51:53 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 114ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:51:55 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:52:06 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 16:53:16 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 264ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/680" for ::1 at 2020-01-06 16:53:18 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/movies/results/680"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/form/movie_lookup?movie_name=gummo" for ::1 at 2020-01-06 16:55:55 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"gummo"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 475ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp" for ::1 at 2020-01-06 16:57:42 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 288ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight" for ::1 at 2020-01-06 16:57:53 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 297ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-01-06 21:13:18 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jordantrickett/.rvm/gems/ruby-2.4.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jordantrickett/.rvm/gems/ruby-2.4.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/magicball" for ::1 at 2020-01-06 21:14:00 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/magicball"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movies" for ::1 at 2020-01-06 21:14:01 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 143ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-06 21:14:11 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1698ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=once+upon" for ::1 at 2020-01-06 21:14:21 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"once upon"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1620ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:14:37 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+Completed 406 Not Acceptable in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (MoviesController#movie_info is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.8) lib/rack/session/abstract/id.rb:259:in `context'
+rack (2.0.8) lib/rack/session/abstract/id.rb:253:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:29:02 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:29:49 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:31:00 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:31:14 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/567604" for ::1 at 2020-01-06 21:33:06 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"567604"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:38:41 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:40:38 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.themoviedb.org/3/movie/#{movie_id}?api_key=24d863d54c86392e6e1df55b9a328755):
+  
+app/controllers/movies_controller.rb:40:in `movie_info'
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:44:35 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 357ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:47:04 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 5963ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    2: 
+    3: <%= params[:id] %>
+    4: 
+    5: <%= @results['overview'] %>
+  
+app/views/movies/movie_info.html.erb:5:in `_app_views_movies_movie_info_html_erb__4066272129786877846_70287173601260'
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:47:47 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:48:02 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7532ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/567604" for ::1 at 2020-01-06 21:48:24 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"567604"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 333ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:48:27 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 141ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:50:41 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 127ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:50:44 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 99ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:51:18 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 151ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:52:38 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:52:43 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:52:46 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.2ms)
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10707ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2821ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5196ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:52:58 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 220ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:53:12 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 108ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:53:39 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 119ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:54:04 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2151ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:55:05 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1335ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:56:12 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 848ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:56:39 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5985ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:57:11 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8093ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 21:57:52 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1367ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:05:00 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2175ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:05:50 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 468ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:06:17 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2590ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:08:27 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 197ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    14: 
+    15:   <% end %>
+    16:   </li>
+    17:   <li>Overview: <%= @results['overview'] %></li>
+    18:   <li>Rating: <%= @results['vote_average'] %></li>
+    19: </ul>
+  
+app/views/movies/movie_info.html.erb:17:in `_app_views_movies_movie_info_html_erb__4066272129786877846_70287097521900'
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:09:08 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 311ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:09:28 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 160ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:10:02 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5079ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/15400" for ::1 at 2020-01-06 22:10:27 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"15400"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 357ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/1428" for ::1 at 2020-01-06 22:10:33 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"1428"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2007ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:11:49 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 253ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:17:58 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9950ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:18:22 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 834ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:18:32 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 11455ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    25: <h4>Related Titles:</h4>
+    26: 
+    27: <ul class="results">
+    28:   <% @related_titles.each do | movie | %>
+    29:       <li>
+    30:         <a href="/movies/results/<%= movie['id'] %>">
+    31:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/movie_info.html.erb:28:in `_app_views_movies_movie_info_html_erb__4066272129786877846_70287100087920'
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:19:42 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1399ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:20:27 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6089ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:20:42 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 263195ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:25:09 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 338ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:25:17 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 867ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:27:55 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 3834ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:28:48 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 367ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:30:40 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 3553ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:32:15 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2513ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/466272" for ::1 at 2020-01-06 22:32:25 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"466272"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1845ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/856" for ::1 at 2020-01-06 22:32:29 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"856"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7168ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/7446" for ::1 at 2020-01-06 22:33:45 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"7446"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 2754ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 22:34:04 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 22:52:38 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     <input type="submit" name="" value="Search!">
+     9: 
+    10:     <select name="genre_id">
+    11:         <% @genres.each do | genre | %>
+    12:             <option value="<%= genre['id'] %>"><%= genre['name'] %></option>
+    13:         <% end %>
+    14:     </select>
+  
+app/views/movies/form.html.erb:11:in `_app_views_movies_form_html_erb__4485419015054443841_70287097559340'
+Started GET "/movies" for ::1 at 2020-01-06 22:53:33 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8775ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 22:54:38 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 31699ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 22:55:38 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14066ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-06 22:57:15 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+Completed 500 Internal Server Error in 34748ms (ActiveRecord: 0.0ms)
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv3/TLS write client hello):
+  
+app/controllers/movies_controller.rb:27:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-06 23:05:05 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (156.3ms)
+Completed 500 Internal Server Error in 96553ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `genre_query' for #<#<Class:0x007fda02b87598>:0x007fda02b85400>
+Did you mean?  @genre_query):
+    1: <h1>Search Results for "<%= @query %><%= genre_query %>"</h1>
+    2: 
+    3: 
+    4: <ul class="results">
+  
+app/views/movies/do_lookup.html.erb:1:in `_app_views_movies_do_lookup_html_erb___4526384218492440314_70287165343940'
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-06 23:06:52 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (141.8ms)
+Completed 500 Internal Server Error in 70211ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `genre_query' for #<#<Class:0x007fd9fccdf158>:0x007fd9fccdd380>
+Did you mean?  @genre_query):
+    1: <h1>Search Results for "<%= @query %><%= genre_query %>"</h1>
+    2: 
+    3: 
+    4: <ul class="results">
+  
+app/views/movies/do_lookup.html.erb:1:in `_app_views_movies_do_lookup_html_erb___4526384218492440314_70287112994440'
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-06 23:08:15 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+Started GET "/movies" for ::1 at 2020-01-06 23:08:27 +1100
+Processing by MoviesController#form as HTML
+Started GET "/movies" for ::1 at 2020-01-06 23:08:52 +1100
+Processing by MoviesController#form as HTML
+Completed 500 Internal Server Error in 45846ms (ActiveRecord: 0.0ms)
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect returned=6 errno=0 state=SSLv3/TLS write finished):
+  
+app/controllers/movies_controller.rb:42:in `do_lookup'
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38559ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14959ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=35" for ::1 at 2020-01-06 23:09:33 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"35"}
+Completed 500 Internal Server Error in 59773ms (ActiveRecord: 0.0ms)
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect returned=6 errno=0 state=SSLv3/TLS write finished):
+  
+app/controllers/movies_controller.rb:28:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=35" for ::1 at 2020-01-06 23:15:06 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>"35"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 70570ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 23:16:41 +1100
+Processing by MoviesController#form as HTML
+Started GET "/movies" for ::1 at 2020-01-06 23:16:43 +1100
+Completed 500 Internal Server Error in 30004ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EHOSTUNREACH (Failed to open TCP connection to api.themoviedb.org:443 (No route to host - connect(2) for "api.themoviedb.org" port 443)):
+  
+app/controllers/movies_controller.rb:10:in `form'
+Processing by MoviesController#form as HTML
+Started GET "/movies" for ::1 at 2020-01-06 23:17:15 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13848ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33664ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=28" for ::1 at 2020-01-06 23:18:11 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 13359ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    2: 
+    3: 
+    4: <ul class="results">
+    5:   <% @results.each do | movie | %>
+    6:       <li>
+    7:         <a href="/movies/results/<%= movie['id'] %>">
+    8:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:5:in `_app_views_movies_do_lookup_html_erb___4526384218492440314_70287112398520'
+Started GET "/movies" for ::1 at 2020-01-06 23:19:10 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20440ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:20:26 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+Started GET "/movies" for ::1 at 2020-01-06 23:20:30 +1100
+Completed 500 Internal Server Error in 49110ms (ActiveRecord: 0.0ms)
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv3/TLS write client hello):
+  
+app/controllers/movies_controller.rb:30:in `do_lookup'
+Processing by MoviesController#form as HTML
+Started GET "/movies" for ::1 at 2020-01-06 23:21:15 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4548ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 32322ms (ActiveRecord: 0.0ms)
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv3/TLS write client hello):
+  
+app/controllers/movies_controller.rb:10:in `form'
+Started GET "/movies" for ::1 at 2020-01-06 23:22:10 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11259ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:22:35 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 1530ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12: </ul>
+    13: 
+    14: <ul class="results">
+    15:   <% @genre_results.each do | movie | %>
+    16:       <li>
+    17:         <a href="/movies/results/<%= movie['id'] %>">
+    18:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:15:in `_app_views_movies_do_lookup_html_erb___3252286914340020851_70299965576120'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:27:38 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 49656ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12: </ul>
+    13: 
+    14: <ul class="results">
+    15:   <% @genre_results.each do | movie | %>
+    16:       <li>
+    17:         <a href="/movies/results/<%= movie['id'] %>">
+    18:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:15:in `_app_views_movies_do_lookup_html_erb___3252286914340020851_70300022014780'
+Started GET "/movies" for ::1 at 2020-01-06 23:28:39 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 230ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:28:42 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 838ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12: </ul>
+    13: 
+    14: <ul class="results">
+    15:   <% @genre_results.each do | movie | %>
+    16:       <li>
+    17:         <a href="/movies/results/<%= movie['id'] %>">
+    18:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:15:in `_app_views_movies_do_lookup_html_erb__3529039038538969987_70144071702900'
+Started GET "/movies" for ::1 at 2020-01-06 23:29:26 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 216ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:29:29 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 84618ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12: </ul>
+    13: 
+    14: <ul class="results">
+    15:   <% @genre_results.each do | genre | %>
+    16:       <li>
+    17:         <a href="/movies/results/<%= genre['id'] %>">
+    18:           <img src="http://image.tmdb.org/t/p/w185<%= genre['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:15:in `_app_views_movies_do_lookup_html_erb__90913921346363755_70256952946880'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:31:03 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 2457ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12: </ul>
+    13: 
+    14: <ul class="results">
+    15:   <% @genre_results.each do | genre | %>
+    16:       <li>
+    17:         <a href="/movies/results/<%= genre['id'] %>">
+    18:           <img src="http://image.tmdb.org/t/p/w185<%= genre['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:15:in `_app_views_movies_do_lookup_html_erb__90913921346363755_70257005814680'
+Started GET "/movies" for ::1 at 2020-01-06 23:33:35 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 125ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:33:39 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1883ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-06 23:34:14 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1851ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 23:36:17 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 112ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:36:24 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 76709ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/419704" for ::1 at 2020-01-06 23:38:16 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"419704"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 684ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:40:08 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3024ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:41:53 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1957ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:55:36 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 768ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-06 23:55:51 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 628ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3:  <!-- if @genre_results == ""  -->
+    4: 
+    5: <ul class="results">
+    6:   <% @results.each do | movie | %>
+    7:       <li>
+    8:         <a href="/movies/results/<%= movie['id'] %>">
+    9:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:6:in `_app_views_movies_do_lookup_html_erb__90913921346363755_70256961952300'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:56:35 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 232ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:56:41 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 166ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:57:40 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 674ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:58:01 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 220ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-06 23:58:32 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3055ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-06 23:58:40 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1347ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/680" for ::1 at 2020-01-06 23:58:43 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"680"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 673ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-07 00:02:22 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `permit' for #<MoviesController:0x007fcbf51821f8>
+Did you mean?  print):
+  
+app/controllers/movies_controller.rb:23:in `do_lookup'
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-07 00:05:14 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 673ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-07 00:05:24 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 3630ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3:  <!-- if @genre_results == ""  -->
+    4: 
+    5: <ul class="results">
+    6:   <% @results.each do | movie | %>
+    7:       <li>
+    8:         <a href="/movies/results/<%= movie['id'] %>">
+    9:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:6:in `_app_views_movies_do_lookup_html_erb__90913921346363755_70256982776080'
+Started GET "/movies" for ::1 at 2020-01-07 00:07:46 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    15:     Search By Genre:
+    16:     <select name="genre_id">
+    17:       <option></option>
+    18:         <% @genres[0..5].each do | genre | %>
+    19:             <option value="<%= genre['id'] %>"><%= genre['name'] %></option>
+    20:         <% end %>
+    21:     </select>
+  
+app/views/movies/form.html.erb:18:in `_app_views_movies_form_html_erb___1079246611057108092_70256939218360'
+Started GET "/movies" for ::1 at 2020-01-07 00:11:08 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 113ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-07 00:11:12 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 99245ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3:  <!-- if @genre_results == ""  -->
+    4: 
+    5: <ul class="results">
+    6:   <% @results.each do | movie | %>
+    7:       <li>
+    8:         <a href="/movies/results/<%= movie['id'] %>">
+    9:           <img src="http://image.tmdb.org/t/p/w185<%= movie['poster_path'] %>" alt="">
+  
+app/views/movies/do_lookup.html.erb:6:in `_app_views_movies_do_lookup_html_erb__90913921346363755_70257006462500'
+Started GET "/movies" for ::1 at 2020-01-07 00:14:15 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 116ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-07 00:14:18 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 627ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction" for ::1 at 2020-01-07 00:14:35 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 418ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/680" for ::1 at 2020-01-07 00:14:36 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"680"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1432ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-07 08:43:42 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 411ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 08:43:49 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+Started GET "/movies" for ::1 at 2020-01-07 08:45:38 +1100
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 115480ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:4: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+.append=( if @query.present? );@output_buffer.safe_append='
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:17: syntax error, unexpected keyword_else
+e;@output_buffer.append=( else );@output_buffer.safe_append=
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:30: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end  );
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/movies/do_lookup.html.erb:4: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/movies/do_lookup.html.erb:17: syntax error, unexpected keyword_else
+app/views/movies/do_lookup.html.erb:30: syntax error, unexpected keyword_end
+app/views/movies/do_lookup.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/movies/do_lookup.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 08:45:50 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 544ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:4: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+.append=( if @query.present? );@output_buffer.safe_append='
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:17: syntax error, unexpected keyword_else
+e;@output_buffer.append=( else );@output_buffer.safe_append=
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:30: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end  );
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/movies/do_lookup.html.erb:4: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/movies/do_lookup.html.erb:17: syntax error, unexpected keyword_else
+app/views/movies/do_lookup.html.erb:30: syntax error, unexpected keyword_end
+app/views/movies/do_lookup.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/movies/do_lookup.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 08:51:25 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 543ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:31: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end  );
+                              ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:34: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/jordantrickett/sei/class/week5/rails-stocks-movies/app/views/movies/do_lookup.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/movies/do_lookup.html.erb:31: syntax error, unexpected keyword_end
+app/views/movies/do_lookup.html.erb:34: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/movies/do_lookup.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 08:51:34 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 82ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-07 08:51:44 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 513ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=12" for ::1 at 2020-01-07 08:51:56 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"12"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 503ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=35" for ::1 at 2020-01-07 08:52:01 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"35"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 518ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=80" for ::1 at 2020-01-07 08:52:08 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"80"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 497ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=pulp+fiction&genre_id=" for ::1 at 2020-01-07 08:52:17 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"pulp fiction", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 297ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=99" for ::1 at 2020-01-07 08:53:05 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"99"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 766ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/543580" for ::1 at 2020-01-07 08:53:10 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"543580"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 491ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=once+upon&genre_id=" for ::1 at 2020-01-07 08:54:26 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"once upon", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 549ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=12" for ::1 at 2020-01-07 08:55:04 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"12"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 499ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-07 08:55:39 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-07 08:55:42 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 527ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 08:56:08 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65928ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=28" for ::1 at 2020-01-07 08:57:34 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"28"}
+Started GET "/movies" for ::1 at 2020-01-07 08:59:44 +1100
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 137132ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by MoviesController#form as HTML
+Started GET "/movies" for ::1 at 2020-01-07 08:59:51 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (0.6ms)
+  Rendered movies/form.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 72ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for ::1 at 2020-01-07 09:33:40 +1100
+Processing by MoviesController#form as HTML
+  Rendering movies/form.html.erb within layouts/application
+  Rendered movies/form.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 194ms (Views: 139.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=12" for ::1 at 2020-01-07 09:33:45 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"12"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 704ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=&genre_id=35" for ::1 at 2020-01-07 09:33:54 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"", "genre_id"=>"35"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 520ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=gummo&genre_id=" for ::1 at 2020-01-07 09:34:05 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"gummo", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 533ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/results/18415" for ::1 at 2020-01-07 09:34:10 +1100
+Processing by MoviesController#movie_info as HTML
+  Parameters: {"id"=>"18415"}
+  Rendering movies/movie_info.html.erb within layouts/application
+  Rendered movies/movie_info.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 679ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 09:40:03 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 15004ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 09:40:32 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62039ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=" for ::1 at 2020-01-07 09:49:35 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 117600ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=figh&genre_id=" for ::1 at 2020-01-07 10:52:36 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"figh", "genre_id"=>""}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 576ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form/movie_lookup?movie_name=fight&genre_id=35" for ::1 at 2020-01-07 10:52:45 +1100
+Processing by MoviesController#do_lookup as HTML
+  Parameters: {"movie_name"=>"fight", "genre_id"=>"35"}
+  Rendering movies/do_lookup.html.erb within layouts/application
+  Rendered movies/do_lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 562ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+

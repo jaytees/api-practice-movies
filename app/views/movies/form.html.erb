@@ -1,0 +1,26 @@
+<h1>Movie Search</h1>
+
+<form action="/form/movie_lookup">
+
+
+  <label>
+    Movie Name:
+    <input type="text" name="movie_name">
+  </label>
+    <input type="submit" name="" value="Search!">
+<br>
+
+  <label>
+    Search By Genre:
+    <select name="genre_id">
+      <option></option>
+        <% @genres[0..5].each do | genre | %>
+            <option value="<%= genre['id'] %>"><%= genre['name'] %></option>
+        <% end %>
+    </select>
+    <input type="Submit" name="" value="Search!">
+  </label>
+
+
+
+</form>

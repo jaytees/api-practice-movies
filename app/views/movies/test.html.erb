@@ -1,0 +1,29 @@
+<!-- from search form  -->
+
+<label>
+  Search By Genre:
+  <select name="genre_id">
+    <option></option>
+      <% @genres[0..5].each do | genre | %>
+          <option value="<%= genre['id'] %>"><%= genre['name'] %></option>
+      <% end %>
+  </select>
+  <input type="Submit" name="" value="Search!">
+</label>
+
+
+
+
+
+<!-- from do lookup for genre results -->
+
+
+<ul class="results">
+  <% @genre_results.each do | genre | %>
+      <li>
+        <a href="/movies/results/<%= genre['id'] %>">
+          <img src="http://image.tmdb.org/t/p/w185<%= genre['poster_path'] %>" alt="">
+        </a>
+      </li>
+  <% end %>
+</ul>
